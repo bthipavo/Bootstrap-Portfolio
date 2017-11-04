@@ -1,0 +1,135 @@
+html{
+	min-height: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin-bottom: 60px;
+	display: flex;
+	flex-direction: column;
+	background: url(../images/vertical-waves.png);
+	border-color: #cdcdcd;
+	margin: 0;
+	padding: 0;
+}
+.panel-body{
+/*	border: solid;
+*/	margin-bottom: 5%;
+}
+
+.right{
+	float: right;
+}
+
+.row{
+	margin: 0 auto;
+}
+
+h2{
+/*	border: solid;
+*/	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 0;
+}
+
+h3{
+	/*position: absolute;*/
+	margin-top: -25%;
+	margin-bottom: 20%;
+	/*text-align: center;*/
+	/*display: inline-block;*/
+	color: #ffffff;
+	/*border: solid;*/
+	width: 90%;
+	background-color: #4aaaa5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+.position-absolute{
+	position: absolute;
+}
+
+.posistion-relative{
+	position: relative;
+}
+.mg-top{
+	margin-top: 50px;
+}
+
+.container{
+	/*display: flex;*/
+/*	border: solid;
+*/	max-width: 960px;
+}
+
+.bg-teal{
+	background-color: #4aaaa5;
+}
+
+.text-teal{
+	color: #4aaaa5;
+}
+
+.bg-white{
+	background-color: white;
+}
+
+.footer{
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	line-height: 60px;
+	flex-shrink: 0;
+	color: #ffffff;
+}
+
+
+.navbar{
+	max-width: 960px;
+	line-height: 60px;
+	border: hidden;
+	margin: 0 auto;
+}
+
+.btn{
+	color: #ffffff;
+}
+
+.page-header{
+	margin: 0px 0 10px;
+	padding: 0;
+}
+
+.img-responsive{
+	max-width: 90%;
+	height: auto;
+	/*margin-right: 10px;*/
+	/*margin-bottom: 10px;*/
+}
+
+.aboutme{
+	display: block;
+	max-width: 40%;
+	height: auto;
+	margin-right: 10px;
+	/*margin-bottom: 10px;*/
+}
+
+[class*="col-"] {
+    margin-bottom: 15px;
+}
+
+
+.container-fluid{
+	padding-left: 0px;
+}
+
+.navbar-right{
+	margin-top: 10px;
+}
